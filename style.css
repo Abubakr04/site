@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+   
+    background: #FFF5F5;
+    
+    width: 110%;
+    height: 116px;
+    
+   
+}
+.wrapper{
+    position: relative;
+    display:flex;
+    top:0;
+    left:230px;
+    flex-wrap: wrap;
+    top:55px;
+    
+}
+
+a{
+   
+    text-decoration: none;
+}
+.logo{
+    position: relative;
+    margin-right: 136px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 150%;
+    /* identical to box height, or 37px */
+    
+    letter-spacing: 0.05em;
+    top:-5px;
+    
+    /* Primary Black */
+    
+    color: #050C26;
+    
+    
+}
+nav>a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+    
+    text-transform: capitalize;
+    
+    color: #575859;
+    margin-right: 50px;
+}
+button{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+width: 134px;
+height: 59px;
+color: #FFFFFF;
+    position: relative;
+   top:-10px;
+   margin-left: 191px;
+    background: #3988FF;
+border-radius: 5px;
+padding: 15px 30px;
+position: relative;
+top:-15px;
+}
+a:hover{
+    color:#0b153d
+    
+}
+nav>a:hover{
+    color: #3988FF;
+    border-bottom:3px solid #3988FF;
+}
+.page1{
+    width: 110%;
+    height: 110vh;
+    position: relative;
+    background: #FFF5F5;
+    display: flex;
+
+}
+.gap1{
+    position: relative;
+   margin-left: 230px;
+   top:175px;
+width: 590px;
+height: 249px;
+
+
+/* Title / Base */
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 69px;
+line-height: 120%;
+/* or 83px */
+
+
+/* Primary Black */
+
+color: #050C26;
+}
+p>span{
+    color:#3988FF;
+}
+.gap2{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+position: absolute;
+width: 496px;
+height: 87px;
+left: 230px;
+top: 455px;
+color: #575859;
+}
+.btn{
+    position: absolute;
+width: 70px;
+height: 70px;
+left: 230px;
+top: 580px;
+border-radius: 50px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 30px #FFE6E6;
+}
+.btn>img{
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left:25px;
+    top:26px;
+    z-index: 2;
+    
+}
+.gap3>span{
+    position: absolute;
+width: 117px;
+height: 29px;
+left: 325px;
+top: 605px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+
+/* Primary Black */
+
+color: #050C26;
+}
+
+.rasm>.item1{
+    position: absolute;
+   
+    left: 846.8px;
+    top: 112.47px
+}
+.rasm>.item2{
+    position: absolute;
+
+    left: 905px;
+    top: 650px;
+
+}
+.rasm>.item3{
+    position: absolute;
+
+left: 1290px;
+top: 201px;
+
+}
+.rasm>.item4{
+    position: absolute;
+
+left: 933px;
+top: 211px;
+}
+.rasm>.item5{
+    position: absolute;
+    left: 805px;
+    top: 318px;
+}
+.rasm>.item6{
+    position: absolute;
+width: 1020px;
+height: 680px;
+left: 650px;
+top: 42px;
+}
+button:hover{
+    background-color: #0066ff;
+}
