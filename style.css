@@ -522,7 +522,7 @@ color: #575859;
     margin-top: 60px;
     width: 360px;
     height: 413px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.75);
     backdrop-filter: blur(104px);
 /* Note: backdrop-filter has minimal browser support */
 
